@@ -13,6 +13,12 @@ can seem verbose, but that is on purpose.
 
 You can download the binary version of the CLI tool from the releases page. The binary is compiled for x86 Linux.
 
+First, make it executable, like so:
+
+```bash
+chmod +x ./tcx2json
+```
+
 Start the application via:
 
 ```bash
@@ -36,7 +42,7 @@ deno install
 
 ## Usage
 
-By specifying the tcx file as an argument, you can convert it to JSON format. For example:
+By specifying the TCX file as an argument, you can convert it to JSON format. For example:
 
 ```bash
 deno run --allow-read main.ts /path/to/your/file.tcx
