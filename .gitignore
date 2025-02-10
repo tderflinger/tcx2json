@@ -1,0 +1,6 @@
+node_modules/
+*.tcx
+app.js
+tcx2json
+package.json
+package-lock.json
